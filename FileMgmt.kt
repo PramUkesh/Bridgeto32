@@ -9,10 +9,10 @@ fun main(args: Array<String>) {
 	
 	val func = readLine()!!
 	
-	if(func.toDouble().isNaN()){
-		println("Please Specify A Number")
-		return
-	}
+	//if(func.toDouble().isNaN()){
+	//	println("Please Specify A Number")
+	//	return
+	//}
 
 	when (func.toInt()){
 		1 -> fileMgmt.createFile(readLine()!!)
