@@ -5,9 +5,12 @@ This is Kotlin Bridge to Win32 API contains File Management API in Future More F
 # Building
 Just Like normal Kotlin Native cmd
 
+```
 konanc FileMgmt.kt -o FileMgmt
-
+```
+```
 konanc DirMgmt.kt -o DirMgmt
+```
 
 # Contributions 
 
